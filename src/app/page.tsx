@@ -6,7 +6,7 @@ export default function Home() {
     <div>
       <PartnersSection />
       <PopularStyles />
-      {/* <ZaraSection /> */}
+      <ZaraSection />
       <BestSellers />
       <Newsletter />
     </div>
