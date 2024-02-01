@@ -18,7 +18,7 @@ function CardHover() {
           alt=""
         />
       </div>
-      <button className="flex items-end gap-3 text-white bg-black">
+      <button className="flex gap-3 text-white bg-black">
         <Image
           src="/assets/icons/shop_white_icon.svg"
           width={25}
@@ -33,8 +33,8 @@ function CardHover() {
 
 export function ProductList() {
   return (
-    <section className="grid lg:grid-cols-4 gap-4">
-      <div className="font-open-sans">
+    <section className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4">
+      <div className="font-open-sans max-w-xs mx-auto">
         <div className="relative group">
           <Image
             src="/assets/images/image-product-3.svg"
@@ -54,7 +54,7 @@ export function ProductList() {
           </div>
         </div>
       </div>
-      <div className="font-open-sans">
+      <div className="font-open-sans max-w-xs mx-auto">
         <div className="relative group">
           <Image
             src="/assets/images/image-product-4.png"
@@ -74,7 +74,7 @@ export function ProductList() {
           </div>
         </div>
       </div>
-      <div className="font-open-sans">
+      <div className="font-open-sans max-w-xs mx-auto">
         <div className="relative group">
           <Image
             src="/assets/images/image-product-1.svg"
@@ -94,7 +94,7 @@ export function ProductList() {
           </div>
         </div>
       </div>
-      <div className="font-open-sans">
+      <div className="font-open-sans max-w-xs mx-auto">
         <div className="relative group">
           <Image
             src="/assets/images/image-product.svg"
@@ -115,7 +115,7 @@ export function ProductList() {
           </div>
         </div>
       </div>
-      <div className="font-open-sans">
+      <div className="font-open-sans max-w-xs mx-auto">
         <div className="relative group">
           <Image
             src="/assets/images/image-product-7.svg"
@@ -135,7 +135,7 @@ export function ProductList() {
           </div>
         </div>
       </div>
-      <div className="font-open-sans">
+      <div className="font-open-sans max-w-xs mx-auto">
         <div className="relative group">
           <Image
             src="/assets/images/image-product-6.svg"
@@ -156,7 +156,7 @@ export function ProductList() {
           </div>
         </div>
       </div>
-      <div className="font-open-sans">
+      <div className="font-open-sans max-w-xs mx-auto">
         <div className="relative group">
           <Image
             src="/assets/images/image-product-8.svg"
@@ -176,7 +176,7 @@ export function ProductList() {
           </div>
         </div>
       </div>
-      <div className="font-open-sans">
+      <div className="font-open-sans max-w-xs mx-auto">
         <div className="relative group">
           <Image
             src="/assets/images/image-product-9.svg"

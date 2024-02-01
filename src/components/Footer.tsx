@@ -4,7 +4,7 @@ import Image from "next/image";
 export function Footer() {
   return (
     <div className="bg-white pt-20">
-      <footer className="footer mt-auto flex justify-between mx-auto gap-10 max-w-7xl mb-10">
+      <footer className="footer mt-auto flex lg:flex-row md:flex-row flex-col justify-between mx-auto gap-10 lg:max-w-7xl md:max-w-2xl max-w-[360px] mb-10">
         <div>
           <Image
             src="/assets/logo/coral_logo.svg"
@@ -71,7 +71,7 @@ export function Footer() {
         </div>
       </footer>
       <div className="bg-black py-4">
-        <div className="flex justify-between items-center max-w-7xl mx-auto">
+        <div className="flex lg:flex-row md:flex-row flex-col justify-between items-center lg:space-y-0 md:space-y-0 space-y-5 lg:max-w-7xl md:max-w-2xl mx-auto">
         <h5 className="text-white text-base font-open-sans">© 2022 Coral , Inc.</h5>
         <div>
           <Image

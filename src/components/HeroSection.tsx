@@ -18,7 +18,7 @@ export function HeroSection() {
         className="absolute bottom-20 -right-4"
         alt=""
       />
-      <div className="max-w-7xl mx-auto mt-20 flex lg:flex-row flex-col justify-between items-center">
+      <div className="lg:max-w-7xl md:max-w-xl max-w-[376px] mx-auto mt-20 flex lg:flex-row md:flex-row flex-col lg:space-y-0 md:space-x-7 space-y-10 justify-between items-center">
         <div className="space-y-14">
           <h1 className="text-7xl font-roboto font-medium">Collections</h1>
           <p className=" text-3xl font-roboto font-semibold capitalize">
@@ -42,7 +42,6 @@ export function HeroSection() {
           alt="logo"
         />
       </div>
-      
     </div>
   );
 }

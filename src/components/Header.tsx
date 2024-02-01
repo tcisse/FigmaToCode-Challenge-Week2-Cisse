@@ -5,12 +5,13 @@ import { HeroSection } from ".";
 export function Header() {
   return (
     <header className="bg-stroke py-12">
-      <div className="flex justify-between items-center max-w-7xl mx-auto py-8">
+      <div className="flex justify-between items-center lg:max-w-7xl max-w-[378px] mx-auto py-8">
         <Image
           src="/assets/icons/search_icon.svg"
           width={25}
           height={25}
           alt=""
+          className="hidden lg:block"
         />
         <Image
           src="/assets/logo/coral_logo.svg"
@@ -19,14 +20,16 @@ export function Header() {
           alt="logo"
         />
         <div className="flex gap-10">
-          <div className="flex items-center gap-2">
-            <Image
-              src="/assets/icons/account_icon.svg"
-              width={25}
-              height={25}
-              alt="logo"
-            />
-            <span>Account</span>
+          <div className="hidden lg:block">
+            <div className="flex items-center gap-2">
+              <Image
+                src="/assets/icons/account_icon.svg"
+                width={25}
+                height={25}
+                alt="logo"
+              />
+              <span>Account</span>
+            </div>
           </div>
           <div className="flex items-center gap-2">
             <Image
@@ -41,7 +44,7 @@ export function Header() {
       </div>
       <div className="max-w-7xl mx-auto">
         <hr className="mb-8 bg-black-5 border" />
-        <div>
+        <div className="hidden lg:block">
           <ul className="flex justify-between font-open-sans text-base font-normal text-dark">
             <li>Jewelry & Accessories</li>
             <li>Clothing & Shoes</li>

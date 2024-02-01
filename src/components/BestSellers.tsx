@@ -48,7 +48,7 @@ export function BestSellers() {
           Best Sellers
         </h1>
         <div className="flex justify-between items-center mb-6">
-          <ul className="flex gap-3 font-open-sans text-dark-50 font-semibold">
+          <ul className="flex gap-5 font-open-sans text-dark-50 font-semibold">
             <li className="hover:text-dark">All Products</li>
             <li className="hover:text-dark">T-Shirt</li>
             <li className="hover:text-dark">Hoodies</li>
@@ -103,10 +103,10 @@ function BestSellersMobile() {
 
   return (
     <div className="max-w-7xl mx-auto mb-20 lg:hidden block">
-      <h1 className="text-center text-5xl font-roboto font-medium">
+      <h1 className="text-center text-5xl font-roboto font-medium mb-5">
         Best Sellers
       </h1>
-      <div className="flex lg:flex-row flex-col justify-between items-center mb-6">
+      <div className="flex lg:flex-row gap-5 flex-col justify-between items-center mb-6">
         <ul className="flex gap-3 font-open-sans text-dark-50 font-semibold">
           <li className="hover:text-dark">All Products</li>
           <li className="hover:text-dark">T-Shirt</li>
@@ -119,14 +119,14 @@ function BestSellersMobile() {
       </div>
       <div className="relative grid lg:grid-cols-4 gap-4">
         <button
-          className="absolute -left-10 top-1/2 transform -translate-y-1/2 z-10"
+          className="absolute lg:left-0 md:left-44 -left-0 top-1/2 transform -translate-y-1/2 z-10"
           onClick={handlePrevClick}
           disabled={currentProduct === 0}
         >
           <img src="/assets/icons/prev_click.svg" alt="" />
         </button>
         {bestSellers.slice(currentProduct, currentProduct + 1).map((index) => (
-          <div key={index.image} className="font-open-sans">
+          <div key={index.image} className="font-open-sans max-w-xs mx-auto">
             <div className="relative group">
               <Image src={index.image} width={312} height={400} alt="" />
               <CardHover />
@@ -150,7 +150,7 @@ function BestSellersMobile() {
           </div>
         ))}
         <button
-          className="absolute right-10 top-1/2 transform -translate-y-1/2 z-10"
+          className="absolute right-0 lg:right-0 md:right-44 cursor-pointer top-1/2 transform -translate-y-1/2 z-10"
           onClick={handleNextClick}
           disabled={currentProduct === bestSellers.length - 1}
         >

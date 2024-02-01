@@ -2,14 +2,25 @@ import React from "react";
 import Image from "next/image";
 import { ProductList } from "./ProductList";
 
+function PopularStylesHover() {
+  return (
+    <div className="absolute bottom-0 left-0 right-0 hidden group-hover:flex justify-between bg-black px-3 py-4">
+      <h1 className="text-white font-open-sans lg:text-base text-xs">Jacket</h1>
+      <h1 className="text-white font-open-sans lg:text-base text-xs">
+        103 products
+      </h1>
+    </div>
+  );
+}
+
 export function PopularStyles() {
   return (
     <div className="mb-20">
-      <div className="max-w-7xl mx-auto py-10 mb-20">
-        <div className="flex gap-6">
+      <div className="lg:max-w-7xl max-w-[376px] mx-auto py-10 mb-20">
+        <div className="flex lg:flex-row flex-col gap-6">
           <div className="relative group">
             <div className="relative">
-              <h1 className="-rotate-90 absolute flex-shrink-0 uppercase font-roboto font-normal text-3xl -left-[45%] top-1/2 -translate-y-1/2">
+              <h1 className="-rotate-90 absolute flex-shrink-0 uppercase font-roboto font-normal lg:text-3xl -left-[45%] top-1/2 -translate-y-1/2">
                 Explore new and popular styles
               </h1>
               <Image
@@ -19,12 +30,7 @@ export function PopularStyles() {
                 alt=""
               />
             </div>
-            <div className="absolute bottom-0 left-0 right-0 hidden group-hover:flex justify-between bg-black px-3 py-4">
-              <h1 className="text-white font-open-sans text-base">Jacket</h1>
-              <h1 className="text-white font-open-sans text-base">
-                103 products
-              </h1>
-            </div>
+            <PopularStylesHover />
           </div>
           <div className="space-y-6">
             <div className="flex gap-6">
@@ -35,14 +41,7 @@ export function PopularStyles() {
                   height={312}
                   alt=""
                 />
-                <div className="absolute bottom-0 left-0 right-0 hidden group-hover:flex justify-between bg-black px-3 py-4">
-                  <h1 className="text-white font-open-sans text-base">
-                    Jacket
-                  </h1>
-                  <h1 className="text-white font-open-sans text-base">
-                    103 products
-                  </h1>
-                </div>
+                <PopularStylesHover />
               </div>
               <div className="relative group">
                 <Image
@@ -51,14 +50,7 @@ export function PopularStyles() {
                   height={312}
                   alt=""
                 />
-                <div className="absolute bottom-0 left-0 right-0 hidden group-hover:flex justify-between bg-black px-3 py-4">
-                  <h1 className="text-white font-open-sans text-base">
-                    Jacket
-                  </h1>
-                  <h1 className="text-white font-open-sans text-base">
-                    103 products
-                  </h1>
-                </div>
+                <PopularStylesHover />
               </div>
             </div>
             <div className="flex gap-6">
@@ -69,14 +61,7 @@ export function PopularStyles() {
                   height={312}
                   alt=""
                 />
-                <div className="absolute bottom-0 left-0 right-0 hidden group-hover:flex justify-between bg-black px-3 py-4">
-                  <h1 className="text-white font-open-sans text-base">
-                    Jacket
-                  </h1>
-                  <h1 className="text-white font-open-sans text-base">
-                    103 products
-                  </h1>
-                </div>
+                <PopularStylesHover />
               </div>
               <div className="relative group">
                 <Image
@@ -85,14 +70,7 @@ export function PopularStyles() {
                   height={312}
                   alt=""
                 />
-                <div className="absolute bottom-0 left-0 right-0 hidden group-hover:flex justify-between bg-black px-3 py-4">
-                  <h1 className="text-white font-open-sans text-base">
-                    Jacket
-                  </h1>
-                  <h1 className="text-white font-open-sans text-base">
-                    103 products
-                  </h1>
-                </div>
+                <PopularStylesHover />
               </div>
             </div>
           </div>
@@ -102,7 +80,7 @@ export function PopularStyles() {
         <h1 className="text-5xl font-roboto font-medium capitalize text-center mb-9">
           Products
         </h1>
-        <div className="flex lg:flex-row flex-col justify-between items-center mb-6">
+        <div className="flex lg:flex-row gap-5 flex-col justify-between items-center mb-6">
           <ul className="flex gap-3 font-open-sans text-dark-50 font-semibold">
             <li className="hover:text-dark">All Products</li>
             <li className="hover:text-dark">T-Shirt</li>
