@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import React, { useState } from "react";
@@ -122,7 +123,7 @@ function BestSellersMobile() {
           onClick={handlePrevClick}
           disabled={currentProduct === 0}
         >
-          Prev
+          <img src="/assets/icons/prev_click.svg" alt="" />
         </button>
         {bestSellers.slice(currentProduct, currentProduct + 1).map((index) => (
           <div key={index.image} className="font-open-sans">
@@ -149,10 +150,12 @@ function BestSellersMobile() {
           </div>
         ))}
         <button
-          className="absolute -right-10 top-1/2 transform -translate-y-1/2 z-10"
+          className="absolute right-10 top-1/2 transform -translate-y-1/2 z-10"
           onClick={handleNextClick}
           disabled={currentProduct === bestSellers.length - 1}
-        >Next</button>
+        >
+          <img src="/assets/icons/next_click.svg" alt="" />
+        </button>
       </div>
     </div>
   );
