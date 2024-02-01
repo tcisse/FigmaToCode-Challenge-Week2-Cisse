@@ -1,7 +1,14 @@
+import { BestSellers, Newsletter, PartnersSection, PopularStyles, ZaraSection } from "@/components";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="text-3xl">hello word</div>
+    <div>
+      <PartnersSection />
+      <PopularStyles />
+      {/* <ZaraSection /> */}
+      <BestSellers />
+      <Newsletter />
+    </div>
   );
 }

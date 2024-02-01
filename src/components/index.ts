@@ -1,0 +1,10 @@
+export { Header as Header } from "./Header";
+export { Footer as Footer } from "./Footer";
+export { PartnersSection as PartnersSection } from "./PartnersSection";
+export { Newsletter as Newsletter } from "./Newsletter";
+export { HeroSection as HeroSection } from "./HeroSection";
+export { PopularStyles as PopularStyles } from "./PopularStyles";
+export { CardHover as CardHover } from "./CardHover";
+export { ProductList as ProductList } from "./ProductList";
+export { ZaraSection as ZaraSection } from "./ZaraSection";
+export { BestSellers as BestSellers } from "./BestSellers";
