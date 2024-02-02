@@ -17,7 +17,7 @@ function NewsletterCardHover() {
 export function Newsletter() {
   return (
     <div className="bg-black-5 py-32">
-      <div className="lg:max-w-7xl md:max-w-4xl max-w-[378px] mx-auto mb-20">
+      <div className="lg:max-w-7xl md:max-w-4xl max-w-[345px] mx-auto mb-20">
         <h1 className="lg:text-5xl text-xl font-medium font-roboto uppercase text-center mb-10">
           Follow products and discounts on Instagram
         </h1>
