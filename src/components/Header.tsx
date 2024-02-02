@@ -5,7 +5,7 @@ import { HeroSection } from ".";
 export function Header() {
   return (
     <header className="bg-stroke py-12">
-      <div className="flex justify-between items-center lg:max-w-7xl max-w-[378px] mx-auto py-8">
+      <div className="flex justify-between items-center lg:max-w-7xl max-w-[350px] mx-auto py-8">
         <Image
           src="/assets/icons/search_icon.svg"
           width={25}
