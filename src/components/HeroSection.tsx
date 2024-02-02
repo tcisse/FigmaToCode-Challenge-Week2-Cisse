@@ -18,14 +18,14 @@ export function HeroSection() {
         className="absolute bottom-20 -right-4"
         alt=""
       />
-      <div className="lg:max-w-7xl md:max-w-xl max-w-[376px] mx-auto mt-20 flex lg:flex-row md:flex-row flex-col lg:space-y-0 md:space-x-7 space-y-10 justify-between items-center">
-        <div className="space-y-14">
+      <div className="lg:max-w-7xl md:max-w-xl max-w-[350px] mx-auto lg:mt-20 mt-6 flex lg:flex-row md:flex-row flex-col lg:space-y-0 md:space-x-7 space-y-10 justify-between items-center">
+        <div className="lg:space-y-14 space-y-4">
           <h1 className="text-7xl font-roboto font-medium">Collections</h1>
           <p className=" text-3xl font-roboto font-semibold capitalize">
             you can explore ans shop many differnt collection <br /> from
             various barands here.
           </p>
-          <button className="flex gap-3 text-white items-center py-4 bg-black px-7 w-44">
+          <button className="flex gap-3 text-white items-center py-4 bg-black px-7 w-44 hover:bg-primary">
             <Image
               src="/assets/icons/shop_white_icon.svg"
               width={25}

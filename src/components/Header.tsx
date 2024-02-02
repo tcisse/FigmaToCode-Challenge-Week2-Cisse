@@ -43,18 +43,26 @@ export function Header() {
         </div>
       </div>
       <div className="max-w-7xl mx-auto">
-        <hr className="mb-8 bg-black-5 border" />
-        <div className="hidden lg:block">
-          <ul className="flex justify-between font-open-sans text-base font-normal text-dark">
-            <li>Jewelry & Accessories</li>
-            <li>Clothing & Shoes</li>
-            <li>Home & Living</li>
-            <li>Wedding & Party</li>
-            <li>Toys & Entertainment</li>
-            <li>Art & Collectibles</li>
-            <li>Craft Supplies & Tools</li>
-          </ul>
-        </div>
+        <hr className="lg:mb-8 mb-3 bg-black-5 border" />
+        <ul className="grid grid-cols-2 lg:grid-cols-7 gap-4 lg:gap-0 justify-between font-open-sans text-base font-normal text-dark lg:mx-0 mx-4">
+          <li className="hover:text-primary cursor-pointer">
+            Jewelry & Accessories
+          </li>
+          <li className="hover:text-primary cursor-pointer">
+            Clothing & Shoes
+          </li>
+          <li className="hover:text-primary cursor-pointer">Home & Living</li>
+          <li className="hover:text-primary cursor-pointer">Wedding & Party</li>
+          <li className="hover:text-primary cursor-pointer">
+            Toys & Entertainment
+          </li>
+          <li className="hover:text-primary cursor-pointer">
+            Art & Collectibles
+          </li>
+          <li className="hover:text-primary cursor-pointer">
+            Craft Supplies & Tools
+          </li>
+        </ul>
       </div>
       <HeroSection />
     </header>

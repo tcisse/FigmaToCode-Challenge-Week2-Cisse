@@ -38,11 +38,11 @@ export function Footer() {
             catalog
           </h1>
           <ul className="capitalize space-y-4 font-open-sans text-black-75">
-            <li>Necklaces</li>
-            <li>hoodies</li>
-            <li>Jewelry Box</li>
-            <li>t-shirt</li>
-            <li>jacket</li>
+            <li className="hover:text-primary">Necklaces</li>
+            <li className="hover:text-primary">hoodies</li>
+            <li className="hover:text-primary">Jewelry Box</li>
+            <li className="hover:text-primary">t-shirt</li>
+            <li className="hover:text-primary">jacket</li>
           </ul>
         </div>
         <div>
@@ -50,11 +50,11 @@ export function Footer() {
             ABOUT US
           </h1>
           <ul className="capitalize space-y-4 font-open-sans text-black-75">
-            <li>Our Producers</li>
-            <li>Sitemap</li>
-            <li>FAQ</li>
-            <li>About Us</li>
-            <li>Terms & Conditions</li>
+            <li className="hover:text-primary">Our Producers</li>
+            <li className="hover:text-primary">Sitemap</li>
+            <li className="hover:text-primary">FAQ</li>
+            <li className="hover:text-primary">About Us</li>
+            <li className="hover:text-primary">Terms & Conditions</li>
           </ul>
         </div>
         <div>
@@ -62,11 +62,11 @@ export function Footer() {
             CUSTOMER SERVICES
           </h1>
           <ul className="capitalize space-y-4 font-open-sans text-black-75">
-            <li>Contact Us</li>
-            <li>Track Your Order</li>
-            <li>Product Care & Repair</li>
-            <li>Book an Appointment</li>
-            <li>Shipping & Returns</li>
+            <li className="hover:text-primary">Contact Us</li>
+            <li className="hover:text-primary">Track Your Order</li>
+            <li className="hover:text-primary">Product Care & Repair</li>
+            <li className="hover:text-primary">Book an Appointment</li>
+            <li className="hover:text-primary">Shipping & Returns</li>
           </ul>
         </div>
       </footer>

@@ -21,7 +21,7 @@ export function Newsletter() {
         <h1 className="lg:text-5xl text-xl font-medium font-roboto uppercase text-center mb-10">
           Follow products and discounts on Instagram
         </h1>
-        <div className="flex space-x-4">
+        <div className="grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2 gap-4">
           <div className="relative group">
             <Image
               src="/assets/images/insta_1.svg"
