@@ -16,7 +16,7 @@ function PopularStylesHover() {
 export function PopularStyles() {
   return (
     <div className="mb-20">
-      <div className="lg:max-w-7xl max-w-[376px] mx-auto py-10 mb-20">
+      <div className="lg:max-w-7xl max-w-[350px] mx-auto py-10 mb-20">
         <div className="flex lg:flex-row flex-col gap-6">
           <div className="relative group">
             <div className="relative">
